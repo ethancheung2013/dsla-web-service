@@ -11,4 +11,5 @@ def most_popular_articles(category = 'mostemailed', section = 'all-sections', da
     return response
 
 def save_result(result):
+    pass
     
