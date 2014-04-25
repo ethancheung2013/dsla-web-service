@@ -14,6 +14,5 @@ def search(term):
     #        like ElasticSearch, which is designed for this sort of thing.
     cur.execute('''SELECT url, section, byline, title, abstract FROM articles WHERE abstract LIKE '%%%s%%';'''% (term,))
     for result in cur:
-        print result
         yield result
                 
