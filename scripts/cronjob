@@ -1,0 +1,1 @@
+@hourly python /home/sam/Documents/GA/dsla-web-service/scripts/pull_nytimes_data.py
