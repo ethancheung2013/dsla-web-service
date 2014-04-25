@@ -4,5 +4,6 @@ CREATE TABLE articles (
        section TEXT,
        byline TEXT,
        title TEXT,
-       abstract TEXT,
-       published_date DATE);
+       abstract TEXT,       
+       published_date DATE,
+       timestamp TIMESTAMP not null default CURRENT_TIMESTAMP);
